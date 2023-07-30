@@ -4,6 +4,7 @@ pragma solidity ^0.5.0;
  * Utility library of inline functions on addresses
  */
 library Address {
+    int a=1;
     /**
      * Returns whether the target address is a contract
      * @dev This function will return false if invoked during the constructor of a contract,
