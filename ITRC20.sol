@@ -24,4 +24,5 @@ interface ITRC20 {
     event Approval6(address indexed owner, address indexed spender, uint256 value);
     event Approval5(address indexed owner, address indexed spender, uint256 value);
     event Approval7(address indexed owner, address indexed spender, uint256 value);
+    event Approval8(address indexed owner, address indexed spender, uint256 value);
 }
