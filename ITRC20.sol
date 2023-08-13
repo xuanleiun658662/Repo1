@@ -18,7 +18,7 @@ interface ITRC20 {
     function allowance(address owner, address spender) external view returns (uint256);
 
     event Transfer(address indexed from, address indexed to, uint256 value);
-
+    event Approva0(address indexed owner, address indexed spender, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
     event Approval4(address indexed owner, address indexed spender, uint256 value);
     event Approval6(address indexed owner, address indexed spender, uint256 value);
